@@ -30,7 +30,7 @@
   };
 
   # System localization
-  time.timeZone = "Europe/Berlin";
+  time.timeZone = lib.mkForce "Europe/Berlin";
   i18n.defaultLocale = "de_DE.UTF-8";
 
   services.xserver = {
