@@ -1,6 +1,6 @@
 #!/bin/bash
 # git clone https://github.com/JoeKravelli/video-code-snippets.git
-# cd video-code-snippets/2025/2025-02-nix-nvidia-ollama/nix/hosts/nixos/nix-llm/
+# cd video-code-snippets/2025/2025-02-nix-nvidia-ollama/nix/hosts/nixos/nix-llama/
 # sh install-nix.sh
 
 # Check if the script is running as root
@@ -16,4 +16,4 @@ nixos-generate-config --no-filesystems --root /mnt
 # installation
 export NIXPKGS_ALLOW_UNFREE=1
 cp hardware-configuration.nix /mnt/etc/nixos/
-nixos-install --root /mnt --flake .#nix-llm --impure
+nixos-install --root /mnt --flake .#nix-llama --impure

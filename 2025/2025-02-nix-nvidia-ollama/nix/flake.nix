@@ -12,9 +12,9 @@
       libx = import ./lib { inherit inputs outputs stateVersion pkgs; };
     in {
       nixosConfigurations = {
-        nix-llm = libx.mkNixos {
+        nix-llama = libx.mkNixos {
           system = "x86_64-linux";
-          hostname = "nix-llm";
+          hostname = "nix-llama";
           username = "zaphod";
         };
       };

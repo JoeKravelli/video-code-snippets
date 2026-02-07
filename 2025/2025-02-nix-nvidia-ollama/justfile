@@ -10,7 +10,7 @@ install IP:
     nix-shell -p git --run \"cd /root/ && \
     rm -rf video-code-snippets && \
     git clone https://github.com/JoeKravelli/video-code-snippets.git && \
-    cd video-code-snippets/2025/2025-02-nix-nvidia-ollama/nix/hosts/nixos/nix-llm/ && \
+    cd video-code-snippets/2025/2025-02-nix-nvidia-ollama/nix/hosts/nixos/nix-llama/ && \
     sh install-nix.sh\"'"
 
 ## nix updates
